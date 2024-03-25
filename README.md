@@ -16,7 +16,7 @@ This repository contains source codes of the following paper:
 ## Dependencies  
 1. Python (we used version 2.7.12)  
 2. PyTorch (we used version 0.4.0)  
-<span style="color: red; ">NOTE: Default grid_sample behavior has changed to align_corners=False since PyTorch 1.3.0. Please specify align_corners=True for the grid_sample functions in test.py and train.py if you use newer PyTorch versions.</span>
+**NOTE: Default grid_sample behavior has changed to align_corners=False since PyTorch 1.3.0. Please specify align_corners=True for the grid_sample functions in test.py and train.py if you use newer PyTorch versions.**
 3. OpenCV (we used version 2.4.13)  
 4. scikit-learn (we used version 0.19.0)
 
